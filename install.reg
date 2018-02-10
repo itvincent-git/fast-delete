@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FastDelete]
+@="极速删除"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FastDelete\command]
+@="cmd.exe /k node D:\\\\FastDelete\\\\delete.js %V"
+
+[HKEY_CLASSES_ROOT\Folder\shell\fastdelete]
+@="极速删除"
+
+[HKEY_CLASSES_ROOT\Folder\shell\fastdelete\command]
+@="cmd.exe /k node D:\\\\FastDelete\\\\delete.js %V"

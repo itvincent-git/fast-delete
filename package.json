@@ -1,0 +1,22 @@
+{
+  "name": "android-build-cmd",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "",
+  "author": {
+    "name": "Vincent Zhong"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "execa": "^0.7.0",
+    "fs-extra": "^4.0.1"
+  },
+  "devDependencies": {}
+}
