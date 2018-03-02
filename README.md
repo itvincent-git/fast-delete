@@ -16,20 +16,21 @@ FastDelete是一个快速删除文件夹的工具，基于nodejs里文件操作�
 
 #### 首次使用
 
-执行 `$npm install`下载依赖包到本地的**node_modules**目录下
+执行 `install.bat`批处理文件。
+
+- 它会下载依赖包到本地的**node_modules**目录下
+- 自动生成并注册reg文件，弹窗中点击“是”添加上右键菜单
+
+
+
+#### 右键菜单运行
+
+- 在文件夹的右键菜单中，点击**极速删除**，即可删除该目录
+
+  ![](http://ojicajn2x.bkt.clouddn.com/fast-delete-img1.png)
 
 
 
 #### 命令行运行
 
 - 在cmd中执行`node delete.js <deleteDir>`
-
-
-
-#### 生成右键菜单
-
-- 执行`generate-reg.bat`文件，会自动生成reg文件并提示注册，弹窗中点击“是”
-
-- 在文件夹的右键菜单中，点击**极速删除**，即可删除该目录
-
-  ![](http://ojicajn2x.bkt.clouddn.com/fast-delete-img1.png)
