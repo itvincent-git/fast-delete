@@ -29,5 +29,9 @@ FastDelete是一个快速删除文件夹的工具，基于nodejs里文件操作�
 #### 生成右键菜单
 
 - 修改`install.reg`，将里面的delete.js文件的目录路径改为你的目录路径
+
 - 执行`install.reg`，执行注册表文件
+
 - 在文件夹的右键菜单中，点击**极速删除**，即可删除该目录
+
+  ![](http://ojicajn2x.bkt.clouddn.com/fast-delete-img1.png)
