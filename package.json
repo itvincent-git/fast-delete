@@ -18,5 +18,8 @@
     "execa": "^0.7.0",
     "fs-extra": "^4.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node generate-reg.js"
+  }
 }
