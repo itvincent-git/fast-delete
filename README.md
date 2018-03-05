@@ -34,3 +34,4 @@ FastDelete是一个快速删除文件夹的工具，基于nodejs里文件操作�
 #### 命令行运行
 
 - 在cmd中执行`node delete.js <deleteDir>`
+
