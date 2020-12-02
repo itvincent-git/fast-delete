@@ -15,8 +15,10 @@
     "lib"
   ],
   "dependencies": {
+    "chalk": "^4.1.0",
     "execa": "^0.7.0",
-    "fs-extra": "^4.0.1"
+    "fs-extra": "^4.0.1",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {},
   "scripts": {
